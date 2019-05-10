@@ -14,8 +14,5 @@ void loop() {
   input = analogRead(axis_pin);
   output = map(input, 0, 1023, 0, 255);\
   analogWrite(sig_pin,output)
-  
-  
-  
   delay(20);
 }
