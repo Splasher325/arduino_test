@@ -25,7 +25,7 @@ void loop() {
   input=map(input, 0, 1023, 0, 179);
   ESC.write(input);
   Serial.println(digitalRead(12));
-  delay(1000);
+  delay(50);
   
   /*
   input = analogRead(axis_pin);
